@@ -29,6 +29,6 @@ WIN_COMBINATIONS = [
       if (position1 == "X" && position2 == "X" && position3 == "X") || (position1 == "O" && position2 == "O" && position3 == "O")
         return win_combination
       else
-        false
+        puts "false"
     end
   end
